@@ -1,0 +1,17 @@
+package lecture01;
+
+import java.util.Scanner;
+
+public class Input {
+
+	public static void main(String[] args) {
+		Scanner scn = new Scanner(System.in);
+		int num = scn.nextInt();
+		int rem = num%2;
+		System.out.println(rem);
+		if (rem == 0) {
+			System.out.println();
+		};
+	}
+
+}
